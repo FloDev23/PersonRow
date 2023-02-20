@@ -11,6 +11,13 @@
 		6775E8A1299C016F006F1F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775E8A0299C016F006F1F67 /* ContentView.swift */; };
 		6775E8A3299C0170006F1F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6775E8A2299C0170006F1F67 /* Assets.xcassets */; };
 		6775E8A6299C0170006F1F67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6775E8A5299C0170006F1F67 /* Preview Assets.xcassets */; };
+		6775E8AF299CF35C006F1F67 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775E8AE299CF35C006F1F67 /* ImagePicker.swift */; };
+		6775E8B4299CFD1C006F1F67 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775E8B3299CFD1C006F1F67 /* Person.swift */; };
+		6775E8B6299F75ED006F1F67 /* DetailPersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775E8B5299F75ED006F1F67 /* DetailPersonRow.swift */; };
+		6775E8B8299F8641006F1F67 /* AddPersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775E8B7299F8641006F1F67 /* AddPersonRow.swift */; };
+		6775E8BE299FC37F006F1F67 /* PersonRow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6775E8BC299FC37F006F1F67 /* PersonRow.xcdatamodeld */; };
+		6775E8C0299FC3DD006F1F67 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775E8BF299FC3DD006F1F67 /* DataController.swift */; };
+		67F68ACE29A14DDB00601883 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F68ACD29A14DDB00601883 /* LocationFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		6775E8A0299C016F006F1F67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6775E8A2299C0170006F1F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6775E8A5299C0170006F1F67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6775E8AE299CF35C006F1F67 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6775E8B3299CFD1C006F1F67 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		6775E8B5299F75ED006F1F67 /* DetailPersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonRow.swift; sourceTree = "<group>"; };
+		6775E8B7299F8641006F1F67 /* AddPersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonRow.swift; sourceTree = "<group>"; };
+		6775E8BD299FC37F006F1F67 /* PersonRow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonRow.xcdatamodel; sourceTree = "<group>"; };
+		6775E8BF299FC3DD006F1F67 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		67F68ACD29A14DDB00601883 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +67,15 @@
 			children = (
 				6775E89E299C016F006F1F67 /* PersonRowApp.swift */,
 				6775E8A0299C016F006F1F67 /* ContentView.swift */,
+				6775E8B5299F75ED006F1F67 /* DetailPersonRow.swift */,
 				6775E8A2299C0170006F1F67 /* Assets.xcassets */,
 				6775E8A4299C0170006F1F67 /* Preview Content */,
+				6775E8AE299CF35C006F1F67 /* ImagePicker.swift */,
+				6775E8B3299CFD1C006F1F67 /* Person.swift */,
+				6775E8B7299F8641006F1F67 /* AddPersonRow.swift */,
+				6775E8BC299FC37F006F1F67 /* PersonRow.xcdatamodeld */,
+				6775E8BF299FC3DD006F1F67 /* DataController.swift */,
+				67F68ACD29A14DDB00601883 /* LocationFetcher.swift */,
 			);
 			path = PersonRow;
 			sourceTree = "<group>";
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6775E8B4299CFD1C006F1F67 /* Person.swift in Sources */,
 				6775E8A1299C016F006F1F67 /* ContentView.swift in Sources */,
+				67F68ACE29A14DDB00601883 /* LocationFetcher.swift in Sources */,
+				6775E8B8299F8641006F1F67 /* AddPersonRow.swift in Sources */,
+				6775E8AF299CF35C006F1F67 /* ImagePicker.swift in Sources */,
+				6775E8C0299FC3DD006F1F67 /* DataController.swift in Sources */,
+				6775E8BE299FC37F006F1F67 /* PersonRow.xcdatamodeld in Sources */,
+				6775E8B6299F75ED006F1F67 /* DetailPersonRow.swift in Sources */,
 				6775E89F299C016F006F1F67 /* PersonRowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +298,14 @@
 				DEVELOPMENT_TEAM = Y5DDDFS8TS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your image position";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save photo with name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +330,14 @@
 				DEVELOPMENT_TEAM = Y5DDDFS8TS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your image position";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save photo with name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +373,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6775E8BC299FC37F006F1F67 /* PersonRow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6775E8BD299FC37F006F1F67 /* PersonRow.xcdatamodel */,
+			);
+			currentVersion = 6775E8BD299FC37F006F1F67 /* PersonRow.xcdatamodel */;
+			path = PersonRow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6775E893299C016F006F1F67 /* Project object */;
 }
